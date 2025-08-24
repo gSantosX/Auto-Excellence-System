@@ -26,7 +26,7 @@ Além disso, será desenvolvido um aplicativo mobile baseado neste sistema, perm
     <img align="center" alt="MySQL" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Database-mysql.svg/500px-Database-mysql.svg.png?20220815123837"><br>
     <h2>Desenvolvido com:<h2>
     <img align="center" alt="MySQL" height="30" width="40" src="https://netbeans.apache.org/_/images/apache-netbeans.svg">
-  </div><br>
+  </div>
   
 ## Status do Sistema:
 Atualmente: <em>Em andamento</em>
