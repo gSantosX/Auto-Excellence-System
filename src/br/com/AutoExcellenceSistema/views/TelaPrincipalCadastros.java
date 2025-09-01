@@ -26,24 +26,285 @@ public class TelaPrincipalCadastros extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
+        jLabel16 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
+        c1 = new javax.swing.JCheckBox();
+        c2 = new javax.swing.JCheckBox();
+        c3 = new javax.swing.JCheckBox();
+        c4 = new javax.swing.JCheckBox();
+        c5 = new javax.swing.JCheckBox();
+        c6 = new javax.swing.JCheckBox();
+        c7 = new javax.swing.JCheckBox();
+        c8 = new javax.swing.JCheckBox();
+        c9 = new javax.swing.JCheckBox();
+        c10 = new javax.swing.JCheckBox();
+        c11 = new javax.swing.JCheckBox();
+        c12 = new javax.swing.JCheckBox();
+        c13 = new javax.swing.JCheckBox();
+        c14 = new javax.swing.JCheckBox();
+        c15 = new javax.swing.JCheckBox();
+        c16 = new javax.swing.JCheckBox();
+        c17 = new javax.swing.JCheckBox();
+        c18 = new javax.swing.JCheckBox();
+        c19 = new javax.swing.JCheckBox();
+        c20 = new javax.swing.JCheckBox();
+        jLabel11 = new javax.swing.JLabel();
+        gerarDescricao = new javax.swing.JButton();
+        cancelar = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+
         setClosable(true);
         setResizable(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 948, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 614, Short.MAX_VALUE)
-        );
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setText("GERAR ORÇAMENTO");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 20, 144, -1));
+        getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 132, 150, -1));
+
+        jLabel16.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSistema2.jpg"))); // NOI18N
+        jLabel16.setText("jLabel10");
+        jLabel16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, 270, 20));
+        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 244, 280, -1));
+        getContentPane().add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 186, 150, -1));
+
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 78, 280, -1));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 132, 280, -1));
+
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 76, 150, -1));
+        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(676, 76, 150, -1));
+
+        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 186, 280, -1));
+
+        jLabel2.setText("Veículo:");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 56, -1, -1));
+
+        jLabel3.setText("Cliente:");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 110, -1, -1));
+
+        jLabel4.setText("Endereço:");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 164, -1, -1));
+
+        jLabel5.setText("Email:");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 222, -1, -1));
+
+        jLabel6.setText("Cor:");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 56, -1, -1));
+
+        jLabel7.setText("Telefone");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 110, -1, -1));
+
+        jLabel8.setText("Numero:");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 164, -1, -1));
+
+        jLabel9.setText("Placa:");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(676, 56, -1, -1));
+
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(678, 186, 150, -1));
+
+        jLabel10.setText("Instagram: (Não obrigatório)");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(678, 164, -1, -1));
+
+        c1.setText("Para-choque dianteiro");
+        c1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                c1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(c1, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 266, 150, -1));
+
+        c2.setText("Para-choque trasiero");
+        getContentPane().add(c2, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 266, 150, -1));
+
+        c3.setText("Lateral traseira direita");
+        getContentPane().add(c3, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 292, 150, -1));
+
+        c4.setText("Lateral traseira esquerda");
+        getContentPane().add(c4, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 292, -1, -1));
+
+        c5.setText("Porta traseira direita");
+        getContentPane().add(c5, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 318, -1, -1));
+
+        c6.setText("Porta traseira esquerda");
+        getContentPane().add(c6, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 318, -1, -1));
+
+        c7.setText("Porta dianteira direita");
+        getContentPane().add(c7, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 344, -1, -1));
+
+        c8.setText("Porta dianteira esquerda");
+        getContentPane().add(c8, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 344, -1, -1));
+
+        c9.setText("Paralama direito");
+        getContentPane().add(c9, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 370, -1, -1));
+
+        c10.setText("Paralama esquerdo");
+        getContentPane().add(c10, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 370, -1, -1));
+
+        c11.setText("Coluna direita");
+        getContentPane().add(c11, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 396, -1, -1));
+
+        c12.setText("Coluna esquerda");
+        getContentPane().add(c12, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 396, -1, -1));
+
+        c13.setText("Caixa de ar direito");
+        getContentPane().add(c13, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 422, -1, -1));
+
+        c14.setText("Caixa de ar esquerdo");
+        getContentPane().add(c14, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 422, -1, -1));
+
+        c15.setText("Roda dianteira direita");
+        getContentPane().add(c15, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 448, -1, -1));
+
+        c16.setText("Roda dianteira esquerda");
+        getContentPane().add(c16, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 448, -1, -1));
+
+        c17.setText("Roda traseira direita");
+        getContentPane().add(c17, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 474, -1, -1));
+
+        c18.setText("Roda traseira esquerda");
+        getContentPane().add(c18, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 474, -1, -1));
+
+        c19.setText("Teto");
+        getContentPane().add(c19, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 500, -1, -1));
+
+        c20.setText("Outros");
+        getContentPane().add(c20, new org.netbeans.lib.awtextra.AbsoluteConstraints(701, 500, -1, -1));
+
+        jLabel11.setText("IMAGEM \"ESBOÇO CARRO\"");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 268, 421, 252));
+
+        gerarDescricao.setText("GERAR DESCRIÇÃO");
+        getContentPane().add(gerarDescricao, new org.netbeans.lib.awtextra.AbsoluteConstraints(334, 565, 153, -1));
+
+        cancelar.setText("CANCELAR");
+        getContentPane().add(cancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(513, 565, 165, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSistema2.jpg"))); // NOI18N
+        jLabel15.setText("jLabel10");
+        jLabel15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 850, 50));
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSistema2.jpg"))); // NOI18N
+        jLabel13.setText("jLabel13");
+        jLabel13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 850, -1));
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSitema1.jpg"))); // NOI18N
+        jLabel12.setText("jLabel12");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, 640));
 
         setBounds(0, 0, 960, 650);
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField6ActionPerformed
+
+    private void c1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_c1ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox c1;
+    private javax.swing.JCheckBox c10;
+    private javax.swing.JCheckBox c11;
+    private javax.swing.JCheckBox c12;
+    private javax.swing.JCheckBox c13;
+    private javax.swing.JCheckBox c14;
+    private javax.swing.JCheckBox c15;
+    private javax.swing.JCheckBox c16;
+    private javax.swing.JCheckBox c17;
+    private javax.swing.JCheckBox c18;
+    private javax.swing.JCheckBox c19;
+    private javax.swing.JCheckBox c2;
+    private javax.swing.JCheckBox c20;
+    private javax.swing.JCheckBox c3;
+    private javax.swing.JCheckBox c4;
+    private javax.swing.JCheckBox c5;
+    private javax.swing.JCheckBox c6;
+    private javax.swing.JCheckBox c7;
+    private javax.swing.JCheckBox c8;
+    private javax.swing.JCheckBox c9;
+    private javax.swing.JButton cancelar;
+    private javax.swing.JButton gerarDescricao;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables
 }

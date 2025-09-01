@@ -26,24 +26,137 @@ public class TelaPrincipalOpcoes extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        TITULO = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        btnModo = new javax.swing.JToggleButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
+        jSeparator3 = new javax.swing.JSeparator();
+        jLabel15 = new javax.swing.JLabel();
+        ICON2 = new javax.swing.JLabel();
+        ICON1 = new javax.swing.JLabel();
+
         setClosable(true);
         setResizable(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 948, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 614, Short.MAX_VALUE)
-        );
+        TITULO.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        TITULO.setText("OPÇÕES");
+        getContentPane().add(TITULO, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSistema2.jpg"))); // NOI18N
+        jLabel16.setText("jLabel10");
+        jLabel16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 270, 20));
+
+        btnModo.setText("Claro / Escuro");
+        btnModo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnModoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnModo, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 460, 190, -1));
+
+        jButton1.setText("Cadastrar úsuario");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 190, -1));
+
+        jButton2.setText("Conectar com SEFAZ");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 300, 190, -1));
+
+        jButton3.setText("Atualizar dados do cliente");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 220, 190, -1));
+
+        jButton4.setText("Atualizar cadastro de úsuario");
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, 190, -1));
+
+        jButton5.setText("Excluir cadastro de úsuario");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 130, 190, -1));
+
+        jButton6.setText("Atualizar orçamento");
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 220, 190, -1));
+
+        jButton7.setText("Excluir orçamento");
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 220, 190, -1));
+
+        jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 14)); // NOI18N
+        jLabel1.setText("Área úsuarios");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 14)); // NOI18N
+        jLabel2.setText("Área cliente");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 180, -1, -1));
+
+        jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 14)); // NOI18N
+        jLabel3.setText("Conexões");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 260, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 12)); // NOI18N
+        jLabel4.setText("Modo");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 440, -1, -1));
+
+        jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 750, 40));
+
+        jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 750, 40));
+
+        jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, 750, 30));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSistema2.jpg"))); // NOI18N
+        jLabel15.setText("jLabel10");
+        jLabel15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 850, 50));
+
+        ICON2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSistema2.jpg"))); // NOI18N
+        ICON2.setText("jLabel2");
+        ICON2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(ICON2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 850, -1));
+
+        ICON1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fundoSitema1.jpg"))); // NOI18N
+        ICON1.setText("jLabel1");
+        getContentPane().add(ICON1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, -1, -1));
 
         setBounds(0, 0, 960, 650);
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnModoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnModoActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel ICON1;
+    private javax.swing.JLabel ICON2;
+    private javax.swing.JLabel TITULO;
+    private javax.swing.JToggleButton btnModo;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
     // End of variables declaration//GEN-END:variables
 }
