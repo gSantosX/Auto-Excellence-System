@@ -21,7 +21,7 @@ Além disso, será desenvolvido um aplicativo mobile baseado neste sistema, perm
 * Mobilidade: Criação de um APP (a desenvolver).
 
 ##
-<h3><strong>As atualizações dos projetos são feitas todos os domingos (somente)!</strong></h3>
+<h3><strong><em>As atualizações dos projetos são feitas todos os domingos (somente)!</em></strong></h3>
 
 ##
 
