@@ -20,6 +20,7 @@ Além disso, será desenvolvido um aplicativo mobile baseado neste sistema, perm
 * Envio facilitado para o cliente: Whastapp/E-mail (a desenvolver).
 * Mobilidade: Criação de um APP (a desenvolver).
 
+<h3><strong>As atualizações dos projetos são feitas todos os domingos (somente)!</strong></h3>
 ## 🔵 Atualização passada:
 
 Nesta atualização mais recente, foram feitas as seguintes melhorias em relação à última:
