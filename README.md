@@ -43,9 +43,9 @@ Nesta atualização do Auto Excellence System, o sistema continha:
 ## Ferramentas utilizadas:
   <div style="flex-basis: 48%;">
     <img align="center" alt="Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-    <img align="center" alt="MySQL" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Database-mysql.svg/500px-Database-mysql.svg.png?20220815123837"><br>
+    <img align="center" alt="MySQL" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Database-mysql.svg"><br>
     <h2>Desenvolvido com:<h2>
-    <img align="center" alt="MySQL" height="30" width="40" src="https://netbeans.apache.org/_/images/apache-netbeans.svg">
+    <img align="center" alt="NetBeans" height="30" width="40" src="https://netbeans.apache.org/_/images/apache-netbeans.svg">
   </div>
   
 ## Status do Sistema:
