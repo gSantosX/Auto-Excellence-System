@@ -22,6 +22,7 @@ Além disso, será desenvolvido um aplicativo mobile baseado neste sistema, perm
 
 ##
 <h3><strong>As atualizações dos projetos são feitas todos os domingos (somente)!</strong></h3>
+
 ##
 
 ## 🔵 Atualização passada:
