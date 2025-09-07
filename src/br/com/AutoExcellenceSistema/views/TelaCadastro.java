@@ -48,8 +48,10 @@ public class TelaCadastro extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Erro: " + e.getMessage());
         } finally { 
-            try { 
-                if (pst != null) pst.close(); 
+            try {
+                if (conexao != null) conexao.close();
+                if (pst != null) pst.close();
+                if (rs != null) rs.close();
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "Erro: " + e);
             }

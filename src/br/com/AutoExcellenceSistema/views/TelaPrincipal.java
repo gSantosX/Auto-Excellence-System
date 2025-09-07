@@ -8,8 +8,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
     
     public TelaPrincipal() {
         initComponents();
-        //CODIGO ABAIXO DEIXA TELA CHEIA:
-        //setExtendedState(MAXIMIZED_BOTH); 
+        /*CODIGO ABAIXO DEIXA TELA CHEIA:
+        setExtendedState(MAXIMIZED_BOTH);*/
     }
     
     public void relatorios(){

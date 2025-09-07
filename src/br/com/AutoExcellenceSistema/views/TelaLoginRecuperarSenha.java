@@ -74,8 +74,9 @@ public class TelaLoginRecuperarSenha extends javax.swing.JFrame {
                 "Erro", JOptionPane.ERROR_MESSAGE);
         } finally {
             try {
-                if (rs != null) rs.close();
+                if (conexao != null) conexao.close();
                 if (pst != null) pst.close();
+                if (rs != null) rs.close();
             } catch (SQLException e) {
                 JOptionPane.showMessageDialog(this,
                     "Erro ao fechar recursos: " + e.getMessage(),
